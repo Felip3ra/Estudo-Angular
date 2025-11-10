@@ -7,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrl: './home.css',
 })
 export class Home {
+  meubooleano = false;
 
+  atualizabooleano(valor : boolean){
+    this.meubooleano = valor;
+  }
 }
