@@ -8,3 +8,13 @@
 
 <button (click)="submit()">Clique</button>
 
+@if(deveMostrarTitulo){
+    <h1>Meu titulo</h1>
+}
+@else {
+    <h1>Nao deu certo</h1>
+}
+
+@for(item of listItems; track item){
+    <p>{{item}}</p>
+}

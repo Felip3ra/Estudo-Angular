@@ -18,4 +18,8 @@ export class Home {
   submit(){
     console.log("video");
   }
+
+  deveMostrarTitulo = false;
+
+  listItems = ["sim","nao","talvez"];
 }
