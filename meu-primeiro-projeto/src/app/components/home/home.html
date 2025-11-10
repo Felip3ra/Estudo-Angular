@@ -1,1 +1,10 @@
-<p>Oi do video</p>
+<p>Oi do video {{name}}</p>
+<!-- atributos estaticos -->
+<button [attr.aria-label]="idButton"></button>
+<!-- atributos dinamico -->
+<button [attr.teste-atributo]="idButton"></button>
+<!-- atributos estaticos -->
+<button id={{idButton}}></button> 
+
+<button (click)="submit()">Clique</button>
+

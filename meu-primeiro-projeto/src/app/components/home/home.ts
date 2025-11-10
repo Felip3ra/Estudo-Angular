@@ -7,9 +7,15 @@ import { Component } from '@angular/core';
   styleUrl: './home.css',
 })
 export class Home {
-  meubooleano = false;
+  name = "Leo";
+  idButton = "eed";
+  // meubooleano = false;
 
-  atualizabooleano(valor : boolean){
-    this.meubooleano = valor;
+  // atualizabooleano(valor : boolean){
+  //   this.meubooleano = valor;
+  // }
+
+  submit(){
+    console.log("video");
   }
 }
